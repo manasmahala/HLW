@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick your preference and book for now or later" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrQ-35-WLA">
+                    <rect key="frame" x="49" y="426" width="222" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="222" id="h5Z-hx-Zpa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen2" translatesAutoresizingMaskIntoConstraints="NO" id="aWP-9j-Z7e">
+                    <rect key="frame" x="37" y="54" width="246" height="340"/>
+                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="340" id="Kp8-9d-OR8"/>
+                        <constraint firstAttribute="width" constant="246" id="nnc-UN-Ers"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.75686274509803919" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aWP-9j-Z7e" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5ED-rc-BFo"/>
+                <constraint firstAttribute="bottom" secondItem="WrQ-35-WLA" secondAttribute="bottom" constant="100" id="ep8-cO-kjX"/>
+                <constraint firstItem="WrQ-35-WLA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="shr-Fh-TsO"/>
+                <constraint firstItem="aWP-9j-Z7e" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-60" id="w9H-3y-H0w"/>
+            </constraints>
+            <point key="canvasLocation" x="168.75" y="55.985915492957744"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="screen2" width="414" height="570"/>
+    </resources>
+</document>
